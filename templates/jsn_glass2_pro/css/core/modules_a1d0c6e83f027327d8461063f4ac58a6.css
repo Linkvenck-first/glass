@@ -1,0 +1,43 @@
+body#sunfw-master .module-style-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d1d6de;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  font-size: 18px;
+  color: #555;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-1 .module-title .box-title:before, body#sunfw-master .module-style-1 .module-title .box-title i[class*='fa-'] {
+  font-size: 1em;
+}
+body#sunfw-master .module-style-2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7f4de5;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  font-size: 18px;
+  color: #555;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-3 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d1d6de;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-4 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7f4de5;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #7f4de5;
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+}

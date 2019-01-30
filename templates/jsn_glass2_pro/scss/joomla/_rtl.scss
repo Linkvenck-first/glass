@@ -1,0 +1,51 @@
+.sunfw-direction-rtl {
+	.text-right {
+		text-align: left !important;
+	}
+	.text-left {
+		text-align: right !important;
+	}
+	.intro_homepage .sidebar_menu .menumenu-sidemenu li a .fa {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	.intro_homepage div.grid__column:first-child {
+		border-left: 1px solid #ddd;
+		border-right: 0;
+	}
+	#hikashop_product_right_part span.hikashop_product_price_full {
+		text-align: right;
+	}
+	.col-innerright,
+	.col-right {
+	    border-right: 1px solid #ddd;
+	    border-left: 0;
+	}
+	.col-innerleft,
+	.col-left {
+	    border-left: 1px solid #ddd;
+	    border-right: 0;
+	}
+	.intro_homepage .sidebar_menu .menumenu-sidemenu li a .fa:before {
+		width: 32px;
+	}
+	.intro_homepage .intro_column {
+		text-align: left !important;
+		.paragraph {
+			text-align-last: left !important;
+		}
+	}
+	.bg-content-bottom {
+		background-position: left center !important;
+	}
+	ul.pb-list li i.fa {
+		margin-right: 0;
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 979px) {
+    .sunfw-direction-rtl {
+
+    }
+}

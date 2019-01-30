@@ -1,0 +1,102 @@
+/* ============================ */
+.sunfw-content .main-color {
+  color: #f57c33;
+}
+.sunfw-content .bg-main-color {
+  background: #f57c33;
+}
+ul.newsfeed li, ul.archive-module li, ul.relateditems li, ul.categories-module li, ul.category-module li, ul.mostread li, ul.latestnews li, ul.latestusers li {
+  color: #f57c33;
+}
+ul.newsfeed li a *, ul.archive-module li a *, ul.relateditems li a *, ul.categories-module li a *, ul.category-module li a *, ul.mostread li a *, ul.latestnews li a *, ul.latestusers li a * {
+  color: #f57c33;
+}
+ul.categories-module ul li {
+  color: #f57c33;
+}
+.item-page.edit #com-content-formTabs > li.active > a:hover, .item-page.edit #com-content-formTabs > li.active > a {
+  border-color: #f57c33;
+  background-color: #f57c33;
+}
+.label-info[href]:hover, .label-info[href]:focus, .content_rating + form input[name="submit_vote"], .content_rating + form .content_vote input {
+  background: #f57c33 !important;
+}
+ul.nav[class*='menu-treemenu'] li a:hover {
+  color: #f57c33;
+}
+.color-img img {
+  background-color: #f57c33;
+}
+.bg-main-color .jsn-es-background {
+  background-color: #f57c33 !important;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.current > a {
+  color: #f57c33;
+}
+ul.nav[class*='menu-sidemenu'] li.active > a, ul.nav[class*='menu-sidemenu'] li.current > a {
+  color: #f57c33;
+}
+ul.nav.menu li a:hover, .btn.btn-plain:hover {
+  color: #f57c33;
+}
+.bg-2nd-subcolor {
+  background-color: #6c5f52;
+}
+.sunfw-scrollup:hover {
+  background-color: #969492;
+}
+nav.navbar.sunfw-menu-head ul.navbar-nav > li:hover > a, nav.navbar.sunfw-menu-head ul.navbar-nav > li.active > a {
+  color: #f57c33;
+}
+.module-style-2 .module-title .box-title {
+  border-color: #f57c33;
+  color: #f57c33 !important;
+}
+.module-style-2 .module-title .box-title i.fa {
+  border-color: #f57c33;
+}
+.module-style-3 .module-title .box-title {
+  border-color: #f57c33;
+}
+h3.glass_module_title:after {
+  background-color: #f57c33;
+}
+.sunfw_get_it_touch .container .get-it-touch .box-form .layout-item {
+  border-color: #f57c33;
+}
+.product-type-1 .hikashop_container .hikashop_listing_img .hikashop_product_stock a.hikashop_cart_button, .product-type-1 .hikashop_container .hikashop_listing_img_title .hikashop_product_stock a.hikashop_cart_button {
+  background-color: #f57c33;
+}
+.label-info {
+  color: #f57c33;
+  border-color: #f57c33;
+}
+div.pagination ul.pagination li.active a {
+  border-color: #f57c33;
+  background-color: #f57c33;
+}
+.item-page.edit form#adminForm .toggle-editor .btn {
+  color: #f57c33;
+}
+.breadcrumb > li + li:before {
+  color: #f57c33;
+}
+.glass-header-title:after {
+  background-color: #f57c33;
+}
+.jsn-counter-wrap .info .number {
+  color: #f57c33;
+}
+.jsn-counter-wrap .info:after {
+  color: #f57c33;
+}
+select[multiple]:focus, select[size]:focus, select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
+  border-color: #f57c33;
+}
+/* ============================ Sub Color ============================ */
+.nav[class*='menu-'] li a.get-it.btn-primary:hover {
+  background-color: #eb7a57;
+}
+nav.navbar.sunfw-menu-head ul.navbar-nav > li > a.get-it.btn-primary:hover, nav.navbar.sunfw-menu-head ul.navbar-nav > li > a.get-it.btn-primary:focus {
+  background-color: #eb7a57;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>MediaSelector</name>
+	<version>1.0.0</version>
+	<creationDate>10/13/2017</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>JSN_MEDIASELECTOR_XML_DESCRIPTION</description>
+	<scriptfile>subinstall.php</scriptfile>
+	<subinstall>
+		<extension type="plugin" folder="system" name="jsnframework" identified_name="ext_framework" client="site" publish="1" lock="1">
+			JSN Extension Framework System Plugin
+		</extension>
+		<extension type="plugin" folder="system" name="jsnmediaselector" publish="1" lock="1" dir="plugins/system/jsnmediaselector" />
+	</subinstall>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<menu link="option=com_mediaselector" option="com_mediaselector" alt="JSN_MEDIASELECTOR_MENU_TEXT">
+			JSN_MEDIASELECTOR_MENU_TEXT
+		</menu>
+		<submenu>
+			<menu link="option=com_mediaselector&amp;view=configuration" view="configuration" alt="JSN_MEDIASELECTOR_MENU_CONFIGURARTION_TEXT">
+				JSN_MEDIASELECTOR_MENU_CONFIGURARTION_TEXT
+			</menu>
+			<menu link="option=com_mediaselector&amp;view=about" view="about" alt="JSN_MEDIASELECTOR_MENU_ABOUT_TEXT">
+				JSN_MEDIASELECTOR_MENU_ABOUT_TEXT
+			</menu>
+		</submenu>
+		<files folder="administrator/components/com_mediaselector">
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>database</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>libraries</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>bootstrap.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>dependency.php</filename>
+			<filename>jsninstaller.php</filename>
+			<filename>mediaselector.php</filename>
+			<filename>mediaselector.defines.php</filename>
+		</files>
+		<languages folder="administrator/components/com_mediaselector/language/admin">
+			<language tag="en-GB">en-GB/en-GB.com_mediaselector.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_mediaselector.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_system_jsnmediaselector.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_system_jsnmediaselector.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

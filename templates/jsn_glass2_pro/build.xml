@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="JSN RC Server" default="sync" basedir=".">
+    <property name="remote.dir" value="/demo/joomla_templates/jsn_glass_2/j30/pro/templates/jsn_glass2_pro/css"/>
+    <property name="source.dir" location="/Users/dungpv/Documents/Git/jsn_glass_2/3.x/jsn_glass2_pro/css"/>
+
+    <target name="sync">
+        <echo message="Start copy file to RC server!" />
+        <ftp server="rc.joomlashine.com"
+             port="21"
+             userid="ftp-jsn"
+             password="AMXGYpewPA4xbtSyWYbDk77h"
+             binary="no"
+             passive="yes"
+             verbose="yes"
+             remotedir="${remote.dir}">
+
+            <!--Folder CSS Root-->
+            <fileset dir="${source.dir}">
+            <include name="*.*" />
+            </fileset>
+            <!--Sub Folder Css/RTL-->
+            <!-- <fileset dir="${source.dir}/rtl">
+                <include name="*.*" />
+            </fileset> -->
+        </ftp>
+    </target>
+</project>

@@ -1,0 +1,49 @@
+#sunfw_section_banner-slider {
+  background-image: url("../../../../images/joomlashine/sample/background/promo-slideshow-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#sunfw_section_footer {
+  color: #fff;
+  font-size: 14px;
+}
+#sunfw_section_content-top {
+  font-size: 14px;
+}
+#sunfw_section_top-bar {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+}
+#sunfw_section_top-bar h1, #sunfw_section_top-bar h2, #sunfw_section_top-bar h3, #sunfw_section_top-bar h4, #sunfw_section_top-bar h5, #sunfw_section_top-bar h6, #sunfw_section_top-bar .h1, #sunfw_section_top-bar .h2, #sunfw_section_top-bar .h3, #sunfw_section_top-bar .h4, #sunfw_section_top-bar .h5, #sunfw_section_top-bar .h6 {
+  color: #fff;
+  line-height: 1.4;
+}
+#sunfw_section_top-bar h1, #sunfw_section_top-bar .h1 {
+  font-size: 31px;
+}
+#sunfw_section_top-bar h2, #sunfw_section_top-bar .h2 {
+  font-size: 25px;
+}
+#sunfw_section_top-bar h3, #sunfw_section_top-bar .h3 {
+  font-size: 21px;
+}
+#sunfw_section_top-bar h4, #sunfw_section_top-bar .h4 {
+  font-size: 15px;
+}
+#sunfw_section_top-bar h5, #sunfw_section_top-bar .h5 {
+  font-size: 12px;
+}
+#sunfw_section_top-bar h6, #sunfw_section_top-bar .h6 {
+  font-size: 11px;
+}
+#sunfw_section_top-bar a {
+  color: #fff;
+}
+#sunfw_section_top-bar a:hover {
+  color: #f57c33;
+}
+#sunfw_section_breadcrumb {
+  background-color: #fff;
+}
